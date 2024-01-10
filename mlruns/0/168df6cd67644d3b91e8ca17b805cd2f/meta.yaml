@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ayush/ANALYTICS_MODULE/FASTAPI_analytics/Analytics_Platform/mlruns/0/168df6cd67644d3b91e8ca17b805cd2f/artifacts
+end_time: 1704775588546
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 168df6cd67644d3b91e8ca17b805cd2f
+run_name: victorious-stag-738
+run_uuid: 168df6cd67644d3b91e8ca17b805cd2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704775586893
+status: 3
+tags: []
+user_id: ayush

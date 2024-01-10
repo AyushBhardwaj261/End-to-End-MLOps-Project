@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ayush/ANALYTICS_MODULE/FASTAPI_analytics/Analytics_Platform/mlruns/0/3f441be5f63742f98de75fc816acf079/artifacts
+end_time: 1704775626254
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3f441be5f63742f98de75fc816acf079
+run_name: bustling-fawn-234
+run_uuid: 3f441be5f63742f98de75fc816acf079
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704775624595
+status: 3
+tags: []
+user_id: ayush

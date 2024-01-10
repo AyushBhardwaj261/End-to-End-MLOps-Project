@@ -1,0 +1,77 @@
+# Analytics_Platform
+This repository contain the source code of a high performance real-time &amp; batch analytics platform
+
+## Workflows
+
+1. Update config.yaml
+2. Update schema.yaml
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the app.py
+
+## How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+git clone -b MLOps https://github.com/AIOTEL-Pvt-Ltd/Analytics_Platform.git
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python=3.8 -y
+```
+
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/AyushBhardwaj321/Analytics_Platform.mlflow \
+MLFLOW_TRACKING_USERNAME=AyushBhardwaj321 \
+MLFLOW_TRACKING_PASSWORD=1e3f44d6de4b695402442acc816fb87d0c3f849e \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/AyushBhardwaj321/Analytics_Platform.mlflow
+export MLFLOW_TRACKING_USERNAME=AyushBhardwaj321 
+
+export MLFLOW_TRACKING_PASSWORD=1e3f44d6de4b695402442acc816fb87d0c3f849e
+
+```
